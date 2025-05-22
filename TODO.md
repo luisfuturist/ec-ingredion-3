@@ -34,15 +34,13 @@
 
 #### 📊 Etapa 3 – Análise Estatística
 
-* [ ] Calcular correlação:
-  * [ ] Pearson (opcional)
-  * [ ] Spearman (opcional)
-* [ ] Interpretar força da correlação (forte, moderada, fraca)
+* [x] Calcular correlação, eg. Pearson, Spearman
+* [x] Interpretar força da correlação (forte, moderada, fraca)
 * [ ] Fazer regressão linear simples:
-  * [ ] Gerar equação da tendência
+  * [x] Gerar equação da tendência
   * [ ] Calcular R²
 * [ ] Gerar gráficos:
-  * [ ] Dispersão com linha de tendência
+  * [x] Dispersão com linha de tendência
   * [ ] Comparativos por safra ou região
 
 ---
