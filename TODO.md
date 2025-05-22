@@ -12,7 +12,7 @@
 
 * [x] Pesquisar dados de produtividade, como em CONAB, IBGE, MAPA e CEPEA/USP
 * [x] Filtrar por mesma **cultura** e **região** do modelo anterior (ex: milho em SP)
-* [ ] Selecionar variáveis:
+* [x] Selecionar variáveis:
   * [x] Produtividade média (t/ha)
   * [x] Ano/safra
   * [ ] Condições regionais (seca, chuva, etc)
@@ -21,15 +21,14 @@
 
 #### 🧹 Etapa 2 – Tratamento e Preparação dos Dados
 
-* [ ] Construir tabela com:
-  * [ ] Coluna de produtividade real
-  * [ ] Coluna de NDVI médio correspondente
-* [ ] Alinhar escalas temporais (ex: safra 2022/23)
-* [ ] Tratar:
-  * [ ] Dados ausentes
-  * [ ] Outliers
-  * [ ] Inconsistências
-* [ ] Separar por amostras comparáveis (municípios, regiões, talhões)
+* [x] Construir tabela com:
+  * [x] Coluna de produtividade real
+  * [x] Coluna de NDVI médio correspondente
+* [x] Alinhar escalas temporais (ex: safra 2022/23)
+* [x] Tratar:
+  * [x] Dados ausentes
+  * [x] Outliers
+* [x] Separar por amostras comparáveis (municípios, regiões, talhões)
 
 ---
 
@@ -72,19 +71,19 @@
   * [ ] Análise de gráficos
   * [ ] Discussão crítica
   * [ ] Referências dos dados
-* [ ] **Notebook Jupyter/Colab**:
-  * [ ] Scripts de tratamento
-  * [ ] Scripts de análise
-  * [ ] Geração de gráficos
-  * [ ] Link ou prints dos resultados
+* [x] **Notebook Jupyter/Colab**:
+  * [x] Scripts de tratamento
+  * [x] Scripts de análise
+  * [x] Geração de gráficos
+  * [x] Link ou prints dos resultados
 
 ---
 
 #### 👥 Organização Interna
 
-* [ ] Dividir funções: coleta / análise / interpretação
+* [x] Dividir funções: coleta / análise / interpretação
 * [ ] Documentar tudo no GitHub com clareza
-* [ ] Evitar modificar repositórios de outras Sprints
+* [x] Evitar modificar repositórios de outras Sprints
 * [ ] Registrar decisões e dificuldades enfrentadas
 
 #### Pontos de melhoria:
