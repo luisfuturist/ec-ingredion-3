@@ -86,7 +86,8 @@
 
 #### Pontos de melhoria:
 
-- Faltou detalhamento na segmentação das áreas de cultivo — não foi mencionada a aplicação de máscara via NDVI ou qualquer abordagem de imageamento espacial. Mesmo que a abordagem tenha sido estatística, seria importante ao menos justificar essa ausência.
-- Poderia haver uma visualização final mais robusta, como comparação entre os modelos lado a lado com gráficos de dispersão e linha temporal.
-- O README poderia destacar com mais clareza os resultados numéricos finais das métricas (RMSE, MAE, R²) de forma tabulada e direta.
-- A explicação do funcionamento do pipeline no notebook pode ser mais comentada em algumas partes, especialmente nas células que tratam dados climáticos.
+- [x] Faltou detalhamento na segmentação das áreas de cultivo — não foi mencionada a aplicação de máscara via NDVI ou qualquer abordagem de imageamento espacial. Mesmo que a abordagem tenha sido estatística, seria importante ao menos justificar essa ausência.
+- [ ] Poderia haver uma visualização final mais robusta, como comparação entre os modelos lado a lado com gráficos de dispersão e linha temporal.
+- [ ] O README poderia destacar com mais clareza os resultados numéricos finais das métricas (RMSE, MAE, R²) de forma tabulada e direta.
+
+- (INVALID) [-] A explicação do funcionamento do pipeline no notebook pode ser mais comentada em algumas partes, especialmente nas células que tratam dados climáticos.

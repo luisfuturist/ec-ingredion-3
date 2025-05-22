@@ -3,7 +3,7 @@
 > Este projeto faz parte do curso de **Inteligência Artificial** oferecido pela [FIAP](https://github.com/fiap) - Online 2024. Este repositório reúne os materiais relacionados ao **Enterprise Challenge - Ingredion**, correspondendo à **Sprint 3** do desafio.
 
 - Notebook para Machine Learning: [Jupyter Notebook](./notebooks/ml.ipynb)
-- Notebook de Análise Estatística: [Jupyter Notebook](./notebooks/eda.ipynb) 
+- Notebook de Análise Exploratória de Dados: [Jupyter Notebook](./notebooks/eda.ipynb) 
 
 ## Descrição
 
@@ -79,7 +79,14 @@ Usar um ambiente virtual isola as dependências do projeto.
 
 ## Tecnologias Utilizadas
 
-// TODO
+| Categoria              | Ferramentas                   |
+|------------------------|-------------------------------|
+| Linguagem              | Python 3.9+                   |
+| Manipulação de Dados   | Pandas, NumPy                 |
+| Visualização           | Matplotlib                    |
+| Aprendizado Profundo   | PyTorch                       |
+| Pré-processamento      | Scikit-learn (StandardScaler) |
+| Ambiente               | Jupyter Notebook, CUDA (GPU)  |
 
 ## Contato
 
