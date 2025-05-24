@@ -36,9 +36,9 @@
 
 * [x] Calcular correlação, eg. Pearson, Spearman
 * [x] Interpretar força da correlação (forte, moderada, fraca)
-* [ ] Fazer regressão linear simples:
+* [x] Fazer regressão linear simples:
   * [x] Gerar equação da tendência
-  * [ ] Calcular R²
+  * [x] Calcular R²
 * [ ] Gerar gráficos:
   * [x] Dispersão com linha de tendência
   * [ ] Comparativos por safra ou região
