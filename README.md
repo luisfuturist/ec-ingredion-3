@@ -3,7 +3,8 @@
 > Este projeto faz parte do curso de **Inteligência Artificial** oferecido pela [FIAP](https://github.com/fiap) - Online 2024. Este repositório reúne os materiais relacionados ao **Enterprise Challenge - Ingredion**, correspondendo à **Sprint 3** do desafio.
 
 - Notebook para Machine Learning: [Jupyter Notebook](./notebooks/ml.ipynb)
-- Notebook de Análise Exploratória de Dados: [Jupyter Notebook](./notebooks/eda.ipynb) 
+- Notebook de Análise Exploratória de Dados: [Jupyter Notebook](./notebooks/eda.ipynb)
+- 📄 **Relatório Final:** [Relatório Técnico - Sprint 3](inserir_link_relatorio)
 
 ## Descrição
 
