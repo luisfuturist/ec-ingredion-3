@@ -7,7 +7,7 @@
 
 ## Descrição
 
-Este projeto desenvolve um modelo de Inteligência Artificial para prever a produtividade agrícola, focando na cultura do café na região de Manhuaçu (MG).  Substituímos abordagens tradicionais, que dependem de estimativas manuais e dados fragmentados, por uma solução que integra imagens de satélite (índice de vegetação NDVI) e dados históricos de produção. O modelo aprende a identificar padrões sazonais e as relações entre a saúde da vegetação e a produtividade, gerando previsões mais precisas para dar suporte à tomada de decisões.
+Este projeto dá continuidade ao desenvolvimento de um modelo de Inteligência Artificial para prever a produtividade agrícola, focando na cultura do café na região de Manhuaçu (MG). Na Sprint 3, o objetivo foi validar o modelo com dados reais históricos e analisar o comportamento das previsões, substituindo abordagens tradicionais por uma solução baseada em NDVI e dados históricos.
 
 A solução proposta visa:
 
@@ -88,6 +88,32 @@ Usar um ambiente virtual isola as dependências do projeto.
     pip install -r requirements.txt
     ```
    Mais detalhes sobre instalação do PyTorch: https://pytorch.org/get-started/locally/
+
+   ## 📊 Análise Exploratória e Validação
+
+Nesta sprint, o foco foi validar os modelos com dados reais históricos, avaliando:  
+- **Desempenho preditivo com métricas (R², MAE, RMSE)**: MLP apresentou R²=0.825 e LSTM R²=0.702.  
+- **Análise visual dos gráficos**: Foram gerados gráficos comparando as previsões dos modelos com os dados reais, destacando padrões sazonais, variações abruptas (ex: 2008) e comportamento específico de cada modelo.
+
+🔍 **Estrutura do diretório validada:**
+
+| Pasta                  | Última data de commit |
+|------------------------|-----------------------|
+| **GOOGLE_EARTH_ENGINE**| last week            |
+| **PROCESSED**          | last week            |
+| **SATVEG**             | last week            |
+| **SIDRA**              | last week            |
+
+---
+
+## 🧠 Modelos Implementados e Avaliação
+
+| Modelo | Descrição | Arquitetura | Métricas |
+|--------|-----------|-------------|----------|
+| MLP | Rede feed-forward para padrões não-lineares diretos | 32 → 16 neurônios, ReLU+Tanh, janela 5 obs. | R²=0.825, MAE=0.150, RMSE=0.210 |
+| LSTM | Rede recorrente para dependências temporais longas | 2 camadas LSTM (32), janela 20 obs., dropout 20% | R²=0.702, MAE=0.195, RMSE=0.275 |
+
+🔸 **Conclusão:** O MLP demonstrou melhor ajuste geral, enquanto o LSTM capturou melhor variações temporais. Ambos apresentam oportunidades de melhoria, incluindo variáveis climáticas e novos modelos.
 
 ## Equipe
 
