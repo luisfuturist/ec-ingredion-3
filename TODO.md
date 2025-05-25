@@ -15,7 +15,6 @@
 * [x] Selecionar variáveis:
   * [x] Produtividade média (t/ha)
   * [x] Ano/safra
-  * [ ] Condições regionais (seca, chuva, etc)
 
 ---
 
@@ -47,28 +46,28 @@
 
 #### 🧠 Etapa 4 – Interpretação Crítica
 
-* [ ] Avaliar: NDVI foi um bom preditor?
-* [ ] Identificar onde o modelo teve melhor/pior desempenho
-* [ ] Discutir fatores externos (clima, pragas, imagem ruim)
-* [ ] Sugerir melhorias no modelo:
-  * [ ] Dados adicionais
-  * [ ] Tratamento de imagem
-  * [ ] Ajustes no período de coleta
-* [ ] Discutir limitações:
-  * [ ] Tamanho da amostra
-  * [ ] Qualidade das fontes públicas
-  * [ ] Métodos estatísticos usados
+* [x] Avaliar: NDVI foi um bom preditor?
+* [x] Identificar onde o modelo teve melhor/pior desempenho
+* [x] Discutir fatores externos (clima, pragas, imagem ruim)
+* [x] Sugerir melhorias no modelo:
+  * [x] Dados adicionais
+  * [x] Tratamento de imagem
+  * [x] Ajustes no período de coleta
+* [x] Discutir limitações:
+  * [x] Tamanho da amostra
+  * [x] Qualidade das fontes públicas
+  * [x] Métodos estatísticos usados
 
 ---
 
 #### 📝 Entregáveis
 
-* [ ] **Relatório técnico em PDF** com:
-  * [ ] Metodologia de coleta
-  * [ ] Técnicas estatísticas
-  * [ ] Análise de gráficos
-  * [ ] Discussão crítica
-  * [ ] Referências dos dados
+* [x] **Relatório técnico em PDF** com:
+  * [x] Metodologia de coleta
+  * [x] Técnicas estatísticas
+  * [x] Análise de gráficos
+  * [x] Discussão crítica
+  * [x] Referências dos dados
 * [x] **Notebook Jupyter/Colab**:
   * [x] Scripts de tratamento
   * [x] Scripts de análise
