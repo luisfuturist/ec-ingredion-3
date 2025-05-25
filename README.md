@@ -7,11 +7,38 @@
 
 ## Descrição
 
-// TODO
+Este projeto desenvolve um modelo de Inteligência Artificial para prever a produtividade agrícola, focando na cultura do café na região de Manhuaçu (MG).  Substituímos abordagens tradicionais, que dependem de estimativas manuais e dados fragmentados, por uma solução que integra imagens de satélite (índice de vegetação NDVI) e dados históricos de produção. O modelo aprende a identificar padrões sazonais e as relações entre a saúde da vegetação e a produtividade, gerando previsões mais precisas para dar suporte à tomada de decisões.
+
+A solução proposta visa:
+
+*   **Otimizar o planejamento agrícola:** Fornecendo previsões de produtividade mais acuradas, auxiliando na alocação eficiente de recursos (fertilizantes, mão de obra, etc.).
+*   **Reduzir perdas:** Identificando tendências e possíveis impactos de fatores ambientais (seca, pragas, etc.) na produção.
+*   **Adaptabilidade e escalabilidade:** A solução é projetada para ser adaptada a diferentes culturas e escalável para outras regiões, aumentando seu valor estratégico.
 
 ## Estrutura de Arquivos
 
-// TODO
+```py
+├── data                  # Arquivos de entrada e saída usados no processo
+│   ├── PROCESSED           # Dados pré-processados para os modelos
+│   │   ├── manhuacu.csv  # Produção histórica (1974-2023) + NDVI anual médio
+│   │   └── ndvi.csv      # Série temporal NDVI (2000-2023) com colunas cíclicas
+│   ├── GOOGLE_EARTH_ENGINE # Dados NDVI extraídos do Google Earth Engine
+│   │   └── ndvi_manhuacu.csv # Série NDVI (2000–2025): Google Earth Engine
+│   └── SIDRA               # Dados de produção do IBGE
+│       └── tabela1613.xlsx # Dados de produção (1974–2023): IBGE/Tabela 1613
+├── models                # Arquivos de pesos dos modelos treinados
+│   ├── lstm.pth        # Pesos do modelo LSTM
+│   └── mlp.pth         # Pesos do modelo MLP
+├── README.md             # Este README
+├── requirements.txt      # Lista de dependências do projeto
+├── scripts               # Notebooks para extração e preparação dos dados
+│   └── extract-analysis-data.ipynb           # Preparação e integração dos dados para análise
+│   └── extract-ndvi-manhuacu.ipynb # Extração NDVI de Manhuaçu, MG (Google Earth Engine)
+├── notebooks                   # Código fonte dos modelos e análise exploratória
+│   └── eda.ipynb       # Análise Exploratória (EDA) e estatísticas
+│   └── ml.ipynb        # Implementação e treinamento dos modelos de IA
+└── TODO.md               # Gestão do projeto e tarefas pendentes
+```
 
 ## Documentação
 
