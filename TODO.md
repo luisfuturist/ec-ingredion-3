@@ -4,6 +4,7 @@
 
 * [x] Criar **novo repositório GitHub** exclusivo para a Sprint 3
 * [x] Organizar por pastas: `data/`, `notebooks/`, `images/`, `scripts/`, etc.
+* [ ] Documentar cada passo com README e comentários no código
 
 ---
 
@@ -79,8 +80,8 @@
 
 * [x] Dividir funções: coleta / análise / interpretação
 * [x] Evitar modificar repositórios de outras Sprints
-* [x] Documentar tudo no GitHub com clareza
-* [x] Registrar decisões e dificuldades enfrentadas
+* [ ] Documentar tudo no GitHub com clareza
+* [ ] Registrar decisões e dificuldades enfrentadas
 
 #### Pontos de melhoria:
 

@@ -4,7 +4,7 @@
 
 - Notebook para Machine Learning: [Jupyter Notebook](./notebooks/ml.ipynb)
 - Notebook de Análise Exploratória de Dados: [Jupyter Notebook](./notebooks/eda.ipynb)
-- Relatório Final: [Documento PDF](inserir_link_relatorio)
+- 📄 **Relatório Final:** [Relatório Técnico - Sprint 3](inserir_link_relatorio)
 
 ## Descrição
 
@@ -90,20 +90,31 @@ Usar um ambiente virtual isola as dependências do projeto.
     ```
    Mais detalhes sobre instalação do PyTorch: https://pytorch.org/get-started/locally/
 
-### Análise Exploratória e Validação
+   ## 📊 Análise Exploratória e Validação
 
 Nesta sprint, o foco foi validar os modelos com dados reais históricos, avaliando:  
 - **Desempenho preditivo com métricas (R², MAE, RMSE)**: MLP apresentou R²=0.825 e LSTM R²=0.702.  
 - **Análise visual dos gráficos**: Foram gerados gráficos comparando as previsões dos modelos com os dados reais, destacando padrões sazonais, variações abruptas (ex: 2008) e comportamento específico de cada modelo.
 
-### Modelos Implementados e Avaliação
+🔍 **Estrutura do diretório validada:**
+
+| Pasta                  | Última data de commit |
+|------------------------|-----------------------|
+| **GOOGLE_EARTH_ENGINE**| last week            |
+| **PROCESSED**          | last week            |
+| **SATVEG**             | last week            |
+| **SIDRA**              | last week            |
+
+---
+
+## 🧠 Modelos Implementados e Avaliação
 
 | Modelo | Descrição | Arquitetura | Métricas |
 |--------|-----------|-------------|----------|
 | MLP | Rede feed-forward para padrões não-lineares diretos | 32 → 16 neurônios, ReLU+Tanh, janela 5 obs. | R²=0.825, MAE=0.150, RMSE=0.210 |
 | LSTM | Rede recorrente para dependências temporais longas | 2 camadas LSTM (32), janela 20 obs., dropout 20% | R²=0.702, MAE=0.195, RMSE=0.275 |
 
-**Conclusão:** O MLP demonstrou melhor ajuste geral, enquanto o LSTM capturou melhor variações temporais. Ambos apresentam oportunidades de melhoria, incluindo variáveis climáticas e novos modelos.
+🔸 **Conclusão:** O MLP demonstrou melhor ajuste geral, enquanto o LSTM capturou melhor variações temporais. Ambos apresentam oportunidades de melhoria, incluindo variáveis climáticas e novos modelos.
 
 ## Equipe
 
