@@ -38,9 +38,9 @@
 * [x] Fazer regressão linear simples:
   * [x] Gerar equação da tendência
   * [x] Calcular R²
-* [ ] Gerar gráficos:
+* [x] Gerar gráficos:
   * [x] Dispersão com linha de tendência
-  * [ ] Comparativos por safra ou região
+  * (Não se aplica) [-] Comparativos por safra ou região
 
 ---
 
@@ -79,8 +79,8 @@
 #### 👥 Organização Interna
 
 * [x] Dividir funções: coleta / análise / interpretação
-* [ ] Documentar tudo no GitHub com clareza
 * [x] Evitar modificar repositórios de outras Sprints
+* [ ] Documentar tudo no GitHub com clareza
 * [ ] Registrar decisões e dificuldades enfrentadas
 
 #### Pontos de melhoria:
