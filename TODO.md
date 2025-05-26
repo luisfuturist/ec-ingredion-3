@@ -4,7 +4,6 @@
 
 * [x] Criar **novo repositório GitHub** exclusivo para a Sprint 3
 * [x] Organizar por pastas: `data/`, `notebooks/`, `images/`, `scripts/`, etc.
-* [ ] Documentar cada passo com README e comentários no código
 
 ---
 
@@ -80,13 +79,13 @@
 
 * [x] Dividir funções: coleta / análise / interpretação
 * [x] Evitar modificar repositórios de outras Sprints
-* [ ] Documentar tudo no GitHub com clareza
-* [ ] Registrar decisões e dificuldades enfrentadas
+* [x] Documentar tudo no GitHub com clareza
+* [x] Registrar decisões e dificuldades enfrentadas
 
 #### Pontos de melhoria:
 
 - [x] Faltou detalhamento na segmentação das áreas de cultivo — não foi mencionada a aplicação de máscara via NDVI ou qualquer abordagem de imageamento espacial. Mesmo que a abordagem tenha sido estatística, seria importante ao menos justificar essa ausência.
-- [x] Poderia haver uma visualização final mais robusta, como comparação entre os modelos lado a lado com gráficos de dispersão e linha temporal.
-- [ ] O README poderia destacar com mais clareza os resultados numéricos finais das métricas (RMSE, MAE, R²) de forma tabulada e direta.
+- [ ] Poderia haver uma visualização final mais robusta, como comparação entre os modelos lado a lado com gráficos de dispersão e linha temporal.
+- [ ] A documentação poderia destacar com mais clareza os resultados numéricos finais das métricas (RMSE, MAE, R²) de forma tabulada e direta.
 
 - (INVALID) [-] A explicação do funcionamento do pipeline no notebook pode ser mais comentada em algumas partes, especialmente nas células que tratam dados climáticos.
