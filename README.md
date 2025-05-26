@@ -27,6 +27,7 @@ O repositório está organizado da seguinte forma:
 │   ├── lstm.pth        # Pesos do modelo LSTM
 │   └── mlp.pth         # Pesos do modelo MLP
 ├── README.md             # Este README
+├── report.pdf            # Relatório técnico
 ├── requirements.txt      # Lista de dependências do projeto
 ├── scripts               # Notebooks para extração e preparação dos dados
 │   └── extract-analysis-data.ipynb           # Preparação e integração dos dados para análise
