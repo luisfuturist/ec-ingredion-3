@@ -12,9 +12,9 @@ Este projeto dá continuidade ao desenvolvimento de um modelo de Inteligência A
 
 A solução proposta visa:
 
-*   **Otimizar o planejamento agrícola:** Fornecendo previsões de produtividade mais acuradas, auxiliando na alocação eficiente de recursos (fertilizantes, mão de obra, etc.).
-*   **Reduzir perdas:** Identificando tendências e possíveis impactos de fatores ambientais (seca, pragas, etc.) na produção.
-*   **Adaptabilidade e escalabilidade:** A solução é projetada para ser adaptada a diferentes culturas e escalável para outras regiões, aumentando seu valor estratégico.
+* **Otimizar o planejamento agrícola:** Fornecendo previsões de produtividade mais acuradas, auxiliando na alocação eficiente de recursos (fertilizantes, mão de obra, etc.).
+* **Reduzir perdas:** Identificando tendências e possíveis impactos de fatores ambientais (seca, pragas, etc.) na produção.
+* **Adaptabilidade e escalabilidade:** A solução é projetada pode ser adaptada a diferentes culturas e escalável para outras regiões, aumentando seu valor estratégico.
 
 ## Estrutura de Arquivos
 
