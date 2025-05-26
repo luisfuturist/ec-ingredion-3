@@ -4,19 +4,15 @@
 
 - Notebook para Machine Learning: [Jupyter Notebook](./notebooks/ml.ipynb)
 - Notebook de Análise Exploratória de Dados: [Jupyter Notebook](./notebooks/eda.ipynb)
-- Relatório Final: [Documento PDF](inserir_link_relatorio)
+- Relatório Técnico: [Documento PDF](./report.pdf)
 
 ## Descrição
 
-Este projeto dá continuidade ao desenvolvimento de um modelo de Inteligência Artificial para prever a produtividade agrícola, focando na cultura do café na região de Manhuaçu (MG). Na Sprint 3, o objetivo foi validar o modelo com dados reais históricos e analisar o comportamento das previsões, substituindo abordagens tradicionais por uma solução baseada em NDVI e dados históricos.
-
-A solução proposta visa:
-
-* **Otimizar o planejamento agrícola:** Fornecendo previsões de produtividade mais acuradas, auxiliando na alocação eficiente de recursos (fertilizantes, mão de obra, etc.).
-* **Reduzir perdas:** Identificando tendências e possíveis impactos de fatores ambientais (seca, pragas, etc.) na produção.
-* **Adaptabilidade e escalabilidade:** A solução é projetada pode ser adaptada a diferentes culturas e escalável para outras regiões, aumentando seu valor estratégico.
+Este repositório contém o código-fonte e a documentação da SPRINT 3 do Challenge Ingredion, focada na validação de um modelo de Inteligência Artificial (IA) para previsão de produtividade agrícola. O objetivo principal é correlacionar as previsões de produtividade do modelo com dados reais históricos, avaliando sua confiabilidade e precisão.
 
 ## Estrutura de Arquivos
+
+O repositório está organizado da seguinte forma:
 
 ```py
 ├── data                  # Arquivos de entrada e saída usados no processo
@@ -41,7 +37,16 @@ A solução proposta visa:
 └── TODO.md               # Gestão do projeto e tarefas pendentes
 ```
 
-## Documentação
+## Instruções para Execução
+
+Para executar os notebooks, siga as instruções abaixo:
+
+### Clone o Repositório
+
+```bash
+git clone https://github.com/luisfuturist/ec-ingredion-3.git
+cd ec-ingredion-3
+```
 
 ### Preparação do Ambiente
 
@@ -90,20 +95,12 @@ Usar um ambiente virtual isola as dependências do projeto.
     ```
    Mais detalhes sobre instalação do PyTorch: https://pytorch.org/get-started/locally/
 
-### Análise Exploratória e Validação
+### Observações
 
-Nesta sprint, o foco foi validar os modelos com dados reais históricos, avaliando:  
-- **Desempenho preditivo com métricas (R², MAE, RMSE)**: MLP apresentou R²=0.825 e LSTM R²=0.702.  
-- **Análise visual dos gráficos**: Foram gerados gráficos comparando as previsões dos modelos com os dados reais, destacando padrões sazonais, variações abruptas (ex: 2008) e comportamento específico de cada modelo.
+**Observações:**
 
-### Modelos Implementados e Avaliação
-
-| Modelo | Descrição | Arquitetura | Métricas |
-|--------|-----------|-------------|----------|
-| MLP | Rede feed-forward para padrões não-lineares diretos | 32 → 16 neurônios, ReLU+Tanh, janela 5 obs. | R²=0.825, MAE=0.150, RMSE=0.210 |
-| LSTM | Rede recorrente para dependências temporais longas | 2 camadas LSTM (32), janela 20 obs., dropout 20% | R²=0.702, MAE=0.195, RMSE=0.275 |
-
-**Conclusão:** O MLP demonstrou melhor ajuste geral, enquanto o LSTM capturou melhor variações temporais. Ambos apresentam oportunidades de melhoria, incluindo variáveis climáticas e novos modelos.
+*   É necessário ter uma conta no Google Earth Engine para executar os scripts de extração dos dados NDVI.
+*   Os dados brutos do IBGE (arquivos Excel) já estão incluídos no repositório, mas podem ser atualizados baixando os dados mais recentes diretamente do site do IBGE.
 
 ## Equipe
 
@@ -133,4 +130,4 @@ Nesta sprint, o foco foi validar os modelos com dados reais históricos, avalian
 
 ## Contato
 
-Se tiver alguma dúvida, sinta-se à vontade para entrar em contato. 🚀
+Se tiver alguma dúvida, sinta-se à vontade para entrar em contato.
